@@ -1,7 +1,6 @@
 import Burger from "@/components/burger";
-import Modal from "@/components/modal";
 import Layout from "./Layout";
-import { getDictionary } from './dictionaries'
+import { getDictionary } from "../dictionaries";
 
 
 export default async function Home({
@@ -15,8 +14,6 @@ export default async function Home({
     return (
 
         <Layout>
-            <h1>fuck you</h1>
-
             <Burger></Burger>
         </Layout>
     )
