@@ -4,16 +4,21 @@ import Layout from "./Layout";
 import { getDictionary } from './dictionaries'
 
 
-export default async function Home ({
-    params: {lang},
-} : {
-    params: {lang:string};
-} ) {
+export default async function Home({
+    params: { lang },
+}: {
+    params: { lang: string };
+}) {
     const translation = await getDictionary(lang)
     console.log(translation);
-    
+
     return (
-        <Layout><Burger></Burger></Layout>
+
+        <Layout>
+            <h1>fuck you</h1>
+
+            <Burger></Burger>
+        </Layout>
     )
 }
 
