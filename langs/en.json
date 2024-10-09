@@ -1,5 +1,8 @@
 {
-    "products": {
-      "cart": "Add to Cart"
-    }
+  "main": {
+    "main_text": "Avaz is gay"
+  },
+  "products": {
+    "cart": "Add to Cart"
   }
+}
