@@ -6,7 +6,6 @@ export default function Burger() {
     return (
 
         <div className="w-full flex flex-wrap gap-5">
-            <Modal></Modal>
         <div className="flex flex-col justify-between p-3 bg-white w-[300px] h-[411px] rounded-[15px]">
             <div className="flex flex-col gap-3">
             <Image src="/super.svg" alt="super" width={290} height={10} />     
