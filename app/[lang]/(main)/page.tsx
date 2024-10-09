@@ -13,7 +13,7 @@ export default async function Home({
 
     return (
 
-        <Layout>
+        <Layout translation={translation} lang={lang}>
             <Burger></Burger>
         </Layout>
     )

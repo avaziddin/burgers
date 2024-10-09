@@ -8,7 +8,7 @@ export default function Burger() {
         <div className="w-full flex flex-wrap gap-5">
         <div className="flex flex-col justify-between p-3 bg-white w-[300px] h-[411px] rounded-[15px]">
             <div className="flex flex-col gap-3">
-            <Image src="/super.svg" alt="super" width={290} height={10} />     
+            <Image src="/images/super.svg" alt="super" width={290} height={10} />     
             <span>689₽</span>
             <span>Мясная бомба</span>
             </div>

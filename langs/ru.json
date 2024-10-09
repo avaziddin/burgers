@@ -1,5 +1,8 @@
 {
-    "products": {
-      "cart": "Toevoegen aan Winkelwagen"
-    }
+  "main": {
+    "main_text": "Аваз гей"
+  },
+  "products": {
+    "cart": "Toevoegen aan Winkelwagen"
   }
+}
