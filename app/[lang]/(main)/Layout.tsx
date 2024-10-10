@@ -16,22 +16,22 @@ const Layout =  ({children, translation, lang}:LayoutProps) => {
               <div className='w-full flex justify-center'>
               <Image src="/images/burger.svg" alt="loshka" width={326} height={30} />
               <div className='text-[60px] font-bold'>
-                <h1 className='text-white'>Только самые <p className='text-orange-600'>сочные бургеры!</p> </h1>
-                <span className='text-[17px] text-white font-mono'>Бесплатная доставка от 599₽</span>
+                <h1 className='text-white'>{translation.title.title_title}<p className='text-orange-600'>{translation.title.title_two}</p> </h1>
+                <span className='text-[17px] text-white font-mono'>{translation.title.free}</span>
               </div>
               </div>
             </div>
 
             <div className='w-full flex justify-around'>
-              <div className='flex gap-3 bg-background  rounded-[50px] py-2 px-5 items-center'><Image src="/images/burgeri.svg" alt="hello" width={30} height={30}/> <span className='text-[18px]'>Бургеры</span> </div>
-              <div className='flex gap-3 bg-white  rounded-[50px] py-2 px-5'><Image src="/images/zakuski.svg" alt="hello" width={30} height={30}/> <span className='text-[18px]'>Закуски</span> </div>
-              <div className='flex gap-3 bg-white  rounded-[50px] py-2 px-5'><Image src="/images/xot-dogi.svg" alt="hello" width={30} height={30}/> <span className='text-[18px]'>Хот-доги</span> </div>
-              <div className='flex gap-3 bg-white  rounded-[50px] py-2 px-5'><Image src="/images/kombo.svg" alt="hello" width={30} height={30}/> <span className='text-[18px]'>Комбо</span> </div>
-              <div className='flex gap-3 bg-white  rounded-[50px] py-2 px-5'><Image src="/images/shaurma.svg" alt="hello" width={30} height={30}/> <span className='text-[18px]'>Шаурма</span> </div>
-              <div className='flex gap-3 bg-white  rounded-[50px] py-2 px-5'><Image src="/images/pizza.svg" alt="hello" width={30} height={30}/> <span className='text-[18px]'>Пицца</span> </div>
-              <div className='flex gap-3 bg-white  rounded-[50px] py-2 px-5'><Image src="/images/bok.svg" alt="hello" width={30} height={30}/> <span className='text-[18px]'>Вок</span> </div>
-              <div className='flex gap-3 bg-white  rounded-[50px] py-2 px-5'><Image src="/images/deserti.svg" alt="hello" width={30} height={30}/> <span className='text-[18px]'>Десерты</span> </div>
-              <div className='flex gap-3 bg-white  rounded-[50px] py-2 px-5'><Image src="/images/sousi.svg" alt="hello" width={30} height={30}/> <span className='text-[18px]'>Соусы</span> </div>
+              <div className='flex gap-3 bg-background  rounded-[50px] py-2 px-5 items-center'><Image src="/images/burgeri.svg" alt="hello" width={30} height={30}/> <span className='text-[18px]'>{translation.types.b}</span> </div>
+              <div className='flex gap-3 bg-white  rounded-[50px] py-2 px-5'><Image src="/images/zakuski.svg" alt="hello" width={30} height={30}/> <span className='text-[18px]'>{translation.types.z}</span> </div>
+              <div className='flex gap-3 bg-white  rounded-[50px] py-2 px-5'><Image src="/images/xot-dogi.svg" alt="hello" width={30} height={30}/> <span className='text-[18px]'>{translation.types.x}</span> </div>
+              <div className='flex gap-3 bg-white  rounded-[50px] py-2 px-5'><Image src="/images/kombo.svg" alt="hello" width={30} height={30}/> <span className='text-[18px]'>{translation.types.k}</span> </div>
+              <div className='flex gap-3 bg-white  rounded-[50px] py-2 px-5'><Image src="/images/shaurma.svg" alt="hello" width={30} height={30}/> <span className='text-[18px]'>{translation.types.sh}</span> </div>
+              <div className='flex gap-3 bg-white  rounded-[50px] py-2 px-5'><Image src="/images/pizza.svg" alt="hello" width={30} height={30}/> <span className='text-[18px]'>{translation.types.p}</span> </div>
+              <div className='flex gap-3 bg-white  rounded-[50px] py-2 px-5'><Image src="/images/bok.svg" alt="hello" width={30} height={30}/> <span className='text-[18px]'>{translation.types.v}</span> </div>
+              <div className='flex gap-3 bg-white  rounded-[50px] py-2 px-5'><Image src="/images/deserti.svg" alt="hello" width={30} height={30}/> <span className='text-[18px]'>{translation.types.d}</span> </div>
+              <div className='flex gap-3 bg-white  rounded-[50px] py-2 px-5'><Image src="/images/sousi.svg" alt="hello" width={30} height={30}/> <span className='text-[18px]'>{translation.types.c}</span> </div>
             </div>
 
             </header>
@@ -90,11 +90,11 @@ const Layout =  ({children, translation, lang}:LayoutProps) => {
               <div className='flex justify-between items-center'>
                 <Image src="/images/futertitle.svg" alt="hello" width={270} height={100} /> 
                 <div className='flex flex-col gap-3'>
-                  <h1>Номер для заказа</h1>
+                  <h1>{translation.footer.number}</h1>
                 <Image src="/images/futernumber.svg" alt="hello" width={170} height={100} /> 
                 </div>
                 <div className='flex flex-col gap-5'>
-                  <h1 className='text-xl'>Мы в соцсетях</h1>
+                  <h1 className='text-xl'>{translation.footer.mi}</h1>
                   <div className='flex gap-4'>
                 <Image src="/images/telegram.svg" alt="hello" width={35} height={100} /> 
                 <Image src="/images/odno.svg" alt="hello" width={35} height={100} /> 

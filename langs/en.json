@@ -1,8 +1,31 @@
 {
   "main": {
-    "main_text": "Avaz is gay"
+    "main_text": "Burgers"
+  },
+  "title": {
+    "title_title": "Only the",
+    "title_two" : "juiciest burgers!",
+    "free":  "Free shipping from 599₽"
+
   },
   "products": {
     "cart": "Add to Cart"
+  },
+  "types" : {
+    "b" : "Burgers",
+    "z" : "snacks",
+    "x" : "Xot-dogs",
+    "k": "Combo",
+    "sh": "Shawarma",
+    "p": "Pizza",
+    "v": "Wok",
+    "d": "desserts",
+    "c": "sauces"
+
+  },
+  "footer" : {
+    "number" :"Order number",
+    "mi" : "We are in social networks"
   }
+  
 }
