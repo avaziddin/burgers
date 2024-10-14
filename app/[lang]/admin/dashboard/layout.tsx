@@ -2,6 +2,7 @@
 
 import { Children } from "react"
 import React, { ReactNode } from 'react';
+import Link from "@/node_modules/next/link";
 
 interface DashboardProps {
     children: ReactNode;
@@ -15,9 +16,11 @@ function Adminlayout({ children }: { children: ReactNode }) {
             <aside className="w-[20%] bg-blue-800 h-screen p-10">
                 <h1 className="text-white text-[40px] font-bold mb-5">Dashboard</h1>
 
+                <Link href="/admin/dashboard/menu">
                 <button className="w-full flex justify-start text-white font-bold text-[24px] rounded-lg hover:bg-white hover:text-blue-600 transition-[2s] mb-3 pl-[5px]">
                     menu
                 </button>
+                </Link>
 
                 <button className="w-full pl-[5px] text-white flex justify-start font-bold text-[24px] rounded-lg hover:bg-white hover:text-blue-600 transition-[2s] mb-3">
                 Orders
