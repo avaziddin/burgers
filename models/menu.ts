@@ -1,5 +1,3 @@
-import { type } from "os";
-
 type Translation = {
     ru : string;
     en : string;

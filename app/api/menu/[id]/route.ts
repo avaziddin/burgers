@@ -1,3 +1,4 @@
+import clientPromise from "@/lib/mongodb";
 import { NextRequest, NextResponse } from "@/node_modules/next/server";
 
 export const GET = async (res: NextResponse , req:NextRequest) => {
