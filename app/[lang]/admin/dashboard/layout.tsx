@@ -13,7 +13,7 @@ function Adminlayout({ children }: { children: ReactNode }) {
 
     return (
         <div className="flex" >
-            <aside className="w-[20%] bg-blue-800 h-screen p-10">
+            <aside className="w-[20%] fixed top-0 left-0 bg-blue-800 h-screen p-10">
                 <h1 className="text-white text-[40px] font-bold mb-5">Dashboard</h1>
 
                 <Link href="/admin/dashboard/menu">
@@ -39,7 +39,7 @@ function Adminlayout({ children }: { children: ReactNode }) {
                 </button>
 
             </aside>
-            <main>
+            <main className='w-[80%] h-[100vh] ml-[20%] bg-blue-950'>
                 {children}
             </main>
         </div>
