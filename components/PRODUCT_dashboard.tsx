@@ -14,15 +14,15 @@ const PRODUCT_dashboard: React.FC<Props> = ({ item }) => {
                 className="p-[1%] flex gap-[2%]  rounded-[15px] bg-white mb-[2%] text-black"
             >
                 <Image
-                    className="w-[30%] h-[30vh] object-cover rounded-[10px] mb-[5px]"
+                    className="w-[30%] h-[35vh] object-cover rounded-[10px] mb-[5px]"
                     src={item.images || ""}
                     alt="burger"
                     width={500}
                     height={500}
                 />
 
-                <div className="w-full flex justify-between">
-                    <div className="w-[90%] flex flex-col">
+                <div className="w-[70%] flex justify-between">
+                    <div className="w-full overflow-hidden flex flex-col">
                         <h2 className="text-[16px] border-b font-600"><span className="font-bold">Price:</span>{item.price}  ₽</h2>
                         <p className="text-[16px] border-b"><span className="font-bold">Title ru:</span>  {item.titles.ru}</p>
                         <p className="text-[16px] border-b"><span className="font-bold">Title en:</span> {item.titles.en}</p>

@@ -13,6 +13,9 @@ export default async function Page({ params: { lang } }: PageProps) {
 
   const res = await fetch("http://localhost:3000/api/menu", { cache: "no-cache" })
 
+  
+  
+
   const { data } = await res.json()
   return (
     <>

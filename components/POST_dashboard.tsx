@@ -132,10 +132,10 @@ const POST_dashboard: React.FC<Props> = ({ button }) => {
                         background: "rgba(0,0,0,0.5)",
                         backdropFilter: "blur(10px)"
                     }}>
-                    <form className=" w-[50%] p-[1%] text-black relative  h-fit bg-background rounded-[20px]" onSubmit={onSubmit}>
+                    <form className=" w-[50%] p-[1%] text-black relative  h-fit bg-blue-800 rounded-[20px]" onSubmit={onSubmit}>
 
                         <button onClick={() => setIsOpend(false)}>
-                            <Image className='absolute top-[2%] right-[1%] ' src="/images/close_white.svg" alt="closebtn" width={25} height={25} />
+                            <Image className='absolute top-[2%] right-[1%] ' src="/images/isfaniguzin.svg" alt="closebtn" width={25} height={25} />
                         </button>
 
                         <div className="flex w-full gap-[5%]">
@@ -271,7 +271,7 @@ const POST_dashboard: React.FC<Props> = ({ button }) => {
                         </div>
 
                         <button
-                            className="w-full mt-[20px] px-4 py-2 bg-orange-600 text-white rounded-md active:scale-[.9] transition-[.2s] hover:bg-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-600"
+                            className="w-full mt-[20px] px-4 py-2 bg-blue-900 text-white rounded-md active:scale-[.9] transition-[.2s] hover:bg-blue-950 focus:outline-none focus:ring-2 "
                             type="submit"
                         >
                             Add Product
