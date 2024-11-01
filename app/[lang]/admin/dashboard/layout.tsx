@@ -30,13 +30,17 @@ function Adminlayout({ children }: { children: ReactNode }) {
                 Users
                 </button>
 
-                <button className="w-full pl-[5px] text-white flex justify-start font-bold text-[24px] rounded-lg hover:bg-white hover:text-blue-600 transition-[2s] mb-[345px]">
-                Category
+                <Link href="/admin/dashboard/category">
+                <button className="w-full flex justify-start text-white font-bold text-[24px] rounded-lg hover:bg-white hover:text-blue-600 transition-[2s] mb-3 pl-[5px]">
+                    category
                 </button>
+                </Link>
 
-                <button className="w-full pl-[5px] text-white flex justify-start font-bold text-[24px] rounded-lg hover:bg-white hover:text-blue-600 transition-[2s] mb-3">
-                Log out
+                <Link href="/">
+                <button className="w-full flex justify-start absolute bottom-[1%] left-0 text-white font-bold text-[24px] rounded-lg hover:bg-white hover:text-blue-600 transition-[2s] mb-3 pl-[5px]">
+                    Log out
                 </button>
+                </Link>
 
             </aside>
             <main className='w-[80%] h-[100vh] ml-[20%] bg-blue-950'>

@@ -11,9 +11,9 @@ const Product_main: React.FC<Props> = ({ item, lang }) => {
     return (
 
         <>
-            <div className="flex flex-col justify-between p-3 bg-white w-[300px] rounded-[15px]">
+            <div className="flex flex-col justify-between p-3 w-[30%] bg-white rounded-[15px]">
                 <div className="flex flex-col gap-3">
-                    <Image className="h-[40vh] object-cover rounded-xl" src={item.images || ""} alt="super" width={290} height={10} />
+                    <Image className="h-[30vh] w-full object-cover rounded-xl" src={item.images || ""} alt="super" width={290} height={10} />
                     <span>{item.price}₽</span>
                     <span>{item.titles[lang]}</span>
                 </div>
